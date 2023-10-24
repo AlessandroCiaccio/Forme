@@ -6,7 +6,7 @@ public class Rettangolo extends Forma{
         this.sideA = sideA;
         this.sideB = sideB;
     }
-
+    @Override
     public void calcoloArea(){
         System.out.println("L'area del rettangolo è " + (sideA*sideB));
     };
