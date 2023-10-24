@@ -1,14 +1,14 @@
 public class Rettangolo extends Forma{
-    private int sideA;
-    private int sideB;
+    private int latoA;
+    private int latoB;
 
-    public Rettangolo(int sideA, int sideB) {
-        this.sideA = sideA;
-        this.sideB = sideB;
+    public Rettangolo(int latoA, int latoB) {
+        this.latoA = latoA;
+        this.latoB = latoB;
     }
     @Override
     public void calcoloArea(){
-        System.out.println("L'area del rettangolo è " + (sideA*sideB));
+        System.out.println("L'area del rettangolo è " + (latoA*latoB));
     };
 
 }
